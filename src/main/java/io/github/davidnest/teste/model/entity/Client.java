@@ -76,6 +76,8 @@ public class Client {
         return id != null && id.equals(other.id);
     }
 
+
+
     @Override
     public int hashCode() {
         return getClass().hashCode();
