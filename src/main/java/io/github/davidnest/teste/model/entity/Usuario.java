@@ -26,7 +26,7 @@ public class Usuario {
     private String email;
 
     @JdbcTypeCode(SqlTypes.ARRAY)
-    @Column(name = "roles", columnDefinition = "varchar[]")
+    @Column(name = "roles")
     private List<String> roles;
 
     public Usuario(UUID id, String password, String name, String email, List<String> roles) {
