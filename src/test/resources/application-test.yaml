@@ -8,4 +8,4 @@ spring:
       ddl-auto: create-drop
     show-sql: false
     properties:
-      hibernate.hbm2ddl.halt_on_error: tru
+      hibernate.hbm2ddl.halt_on_error: true
